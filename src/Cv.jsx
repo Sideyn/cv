@@ -32,6 +32,7 @@ function Cv() {
               <div className="spec">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                  alt="icones"
                   className="icons_dev"
                 />
                 <li>HTML</li>
@@ -40,6 +41,7 @@ function Cv() {
               <div className="spec">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                  alt="icones"
                   className="icons_dev"
                 />
                 <li>CSS 3</li>
@@ -48,6 +50,7 @@ function Cv() {
               <div className="spec">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+                  alt="icones"
                   className="icons_dev"
                 />
                 <li>JAVASCRIPT</li>
@@ -56,6 +59,7 @@ function Cv() {
               <div className="spec">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                  alt="icones"
                   className="icons_dev"
                 />
                 <li>REACT</li>
@@ -64,6 +68,7 @@ function Cv() {
               <div className="spec">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                  alt="icones"
                   className="icons_dev"
                 />
                 <li>NODE.JS</li>
@@ -72,6 +77,7 @@ function Cv() {
               <div className="spec">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                  alt="icones"
                   className="icons_dev"
                 />
                 <li>MYSQL</li>
@@ -80,6 +86,7 @@ function Cv() {
               <div className="spec">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                  alt="icones"
                   className="icons_dev"
                 />
                 <li>GIT</li>
