@@ -15,18 +15,19 @@ function Cv() {
   return (
     <div className="Cv">
       <header>
-        <h1 className="title">Curriculum vitæ</h1>
+        <h1 className="title">Sidney Croset</h1>
         <div className="opacity" />
       </header>
       <div className="body">
         <div className="column_1">
           <div className="description">
             <img src={moi} alt="Moi" className="moi" />
-            <h2 className="name">Sidney Croset</h2>
-            <h3 className="job">Développeur web</h3>
+            <h3 className="job">
+              <Typical loop={1} wrapper="b" steps="Développeur web" />
+            </h3>
           </div>
           <div className="tools">
-            <h2 className="animation_h2_tools">Outils</h2>
+            <h2 className="animation_h2">Outils</h2>
             <ul>
               <div className="spec">
                 <img
@@ -87,7 +88,7 @@ function Cv() {
             </ul>
           </div>
           <div className="hobbies">
-            <h2 className="h2_column">Hobbies</h2>
+            <h2 className="animation_h2">Hobbies</h2>
             <ul>
               <div className="spec">
                 <img src={art} alt="Moi" className="icons_hobbies" />
@@ -117,7 +118,7 @@ function Cv() {
             </ul>
           </div>
           <div className="contact">
-            <h2 className="h2_column">Contact</h2>
+            <h2 className="animation_h2">Contact</h2>
             <ul>
               <div className="spec_contact">
                 <img src={telephone} alt="Moi" className="icons_contact" />
@@ -155,11 +156,12 @@ function Cv() {
                 </li>
               </div>
             </ul>
+            <div class="h_line2" />
           </div>
         </div>
         <div className="column_2">
           <h1>Expérience</h1>
-          <div class="h_line2" />
+          <div class="h_line2_experience" />
           <div className="exp1">
             <h2>Formation développeur web et web mobile</h2>{" "}
             <div className="exp_1">
@@ -247,12 +249,12 @@ function Cv() {
         </div>
         <div className="column_3">
           <div className="skills_column_1">
-            <h2>Compétences :</h2>
+            <h2 className="animation_h2">Compétences :</h2>
             <ul>
               <div className="spec">
                 <svg>
                   <circle
-                    className="circle_1"
+                    className="circle"
                     cx="25px"
                     cy="25px"
                     r="25px"
@@ -274,7 +276,7 @@ function Cv() {
               <div className="spec">
                 <svg>
                   <circle
-                    className="circle_1"
+                    className="circle_2"
                     cx="25px"
                     cy="25px"
                     r="25px"
@@ -285,7 +287,7 @@ function Cv() {
               <div className="spec">
                 <svg>
                   <circle
-                    className="circle_1"
+                    className="circle_3"
                     cx="25px"
                     cy="25px"
                     r="25px"
@@ -293,24 +295,25 @@ function Cv() {
                 </svg>
                 <li>Travail en équipe</li>
               </div>
+            </ul>
+          </div>
+          <div className="skills_column_2">
+            <ul>
               <div className="spec">
                 <svg>
                   <circle
-                    className="circle_1"
+                    className="circle_4"
                     cx="25px"
                     cy="25px"
                     r="25px"
                   ></circle>
                 </svg>
-              </div>
-              {/* </div> */}
-              <div className="skills_column_2">
                 <li>Ponctuel</li>
               </div>
               <div className="spec">
                 <svg>
                   <circle
-                    className="circle_1"
+                    className="circle_5"
                     cx="25px"
                     cy="25px"
                     r="25px"
@@ -321,7 +324,7 @@ function Cv() {
               <div className="spec">
                 <svg>
                   <circle
-                    className="circle_1"
+                    className="circle_6"
                     cx="25px"
                     cy="25px"
                     r="25px"
@@ -332,7 +335,7 @@ function Cv() {
               <div className="spec">
                 <svg>
                   <circle
-                    className="circle_1"
+                    className="circle_7"
                     cx="25px"
                     cy="25px"
                     r="25px"
