@@ -80,7 +80,7 @@ function Cv() {
                   alt="icones"
                   className="icons_dev"
                 />
-                <li>MYSQL</li>
+                <li>MYSQL </li>
               </div>
               <div class="h_line2" />
               <div className="spec">
@@ -104,22 +104,22 @@ function Cv() {
               <div class="h_line2" />
               <div className="spec">
                 <img src={cinema} alt="Moi" className="icons_hobbies" />
-                <li>Cinéma</li>
+                <li>CINÉMA</li>
               </div>
               <div class="h_line2" />
               <div className="spec">
                 <img src={musique} alt="Moi" className="icons_hobbies" />
-                <li>Musique</li>
+                <li>MUSIQUE</li>
               </div>
               <div class="h_line2" />
               <div className="spec">
                 <img src={console} alt="Moi" className="icons_hobbies" />
-                <li>Jeux vidéos</li>
+                <li>JEUX VIDÉOS</li>
               </div>
               <div class="h_line2" />
               <div className="spec">
                 <img src={carte} alt="Moi" className="icons_hobbies" />
-                <li>Voyage</li>
+                <li>VOYAGE</li>
               </div>
               <div class="h_line2" />
             </ul>
@@ -137,7 +137,7 @@ function Cv() {
               <div className="spec_contact">
                 <img src={email} alt="Moi" className="icons_contact" />
                 <li>
-                  Email: <br /> sidney.croset@hotmail.com
+                  Email: <br /> sidney.croset <br /> @hotmail.com
                 </li>
               </div>
               <div class="h_line2" />
@@ -158,8 +158,8 @@ function Cv() {
               <div className="spec_contact">
                 <img src={adresse} alt="Moi" className="icons_contact" />{" "}
                 <li>
-                  Adresse: <br /> 10 rue de Nogent 28120, <br /> Montigny Le
-                  Chartif
+                  Adresse: <br /> 10 rue de Nogent <br /> 28120, <br /> Montigny
+                  Le Chartif
                 </li>
               </div>
             </ul>
@@ -167,7 +167,7 @@ function Cv() {
           </div>
         </div>
         <div className="column_2">
-          <h1>Expérience</h1>
+          <h1 className="experience">Expérience</h1>
           <div class="h_line2_experience" />
           <div className="exp1">
             <h2>Formation développeur web et web mobile</h2>{" "}
@@ -253,100 +253,178 @@ function Cv() {
               </p>
             </div>
           </div>
+          <div className="column_3_desktop">
+            <div className="skills_column_1_desktop">
+              <h2 classN>Compétences :</h2>
+              <ul>
+                <div className="spec">
+                  <svg className="circle_desktop">
+                    <circle id="circle" cx="50px" cy="50px" r="50px"></circle>
+                  </svg>
+                  <li>Communication</li>
+                </div>
+                <div className="spec">
+                  <svg className="circle_desktop">
+                    <circle id="circle_1" cx="50px" cy="50px" r="50px"></circle>
+                  </svg>
+                  <li>Adaptation</li>
+                </div>
+                <div className="spec">
+                  <svg className="circle_desktop">
+                    <circle id="circle_2" cx="50px" cy="50px" r="50px"></circle>
+                  </svg>
+                  <li>Gestion du stress</li>
+                </div>
+                <div className="spec">
+                  <svg className="circle_desktop">
+                    <circle id="circle_3" cx="50px" cy="50px" r="50px"></circle>
+                  </svg>
+                  <li>Travail en équipe</li>
+                </div>
+              </ul>
+            </div>
+            <div className="skills_column_2_desktop">
+              <ul>
+                <div className="spec">
+                  <svg className="circle_desktop">
+                    <circle id="circle_4" cx="50px" cy="50px" r="50px"></circle>
+                  </svg>
+                  <li>Ponctuel</li>
+                </div>
+                <div className="spec">
+                  <svg className="circle_desktop">
+                    <circle id="circle_5" cx="50px" cy="50px" r="50px"></circle>
+                  </svg>
+                  <li>Rigoureux</li>
+                </div>
+                <div className="spec">
+                  <svg className="circle_desktop">
+                    <circle id="circle_6" cx="50px" cy="50px" r="50px"></circle>
+                  </svg>
+                  <li>Assidu</li>
+                </div>
+                <div className="spec">
+                  <svg className="circle_desktop">
+                    <circle id="circle_7" cx="50px" cy="50px" r="50px"></circle>
+                  </svg>
+                  <li>Organisation</li>
+                </div>
+              </ul>
+            </div>
+          </div>
+          <div className="column_phone_bis">
+            <div className="skills_column_phone">
+              <h2>Compétences :</h2>
+              <ul>
+                <div className="spec">
+                  <svg>
+                    <circle id="circle" cx="25px" cy="25px" r="25px"></circle>
+                  </svg>
+                  <li>Communication</li>
+                </div>
+                <div className="spec">
+                  <svg>
+                    <circle id="circle_1" cx="25px" cy="25px" r="25px"></circle>
+                  </svg>
+                  <li>Adaptation</li>
+                </div>
+                <div className="spec">
+                  <svg>
+                    <circle id="circle_2" cx="25px" cy="25px" r="25px"></circle>
+                  </svg>
+                  <li>Gestion du stress</li>
+                </div>
+                <div className="spec">
+                  <svg>
+                    <circle id="circle_3" cx="25px" cy="25px" r="25px"></circle>
+                  </svg>
+                  <li>Travail en équipe</li>
+                </div>
+              </ul>
+            </div>
+            <div className="skills_column_2_phone">
+              <ul>
+                <div className="spec">
+                  <svg>
+                    <circle id="circle_4" cx="25px" cy="25px" r="25px"></circle>
+                  </svg>
+                  <li>Ponctuel</li>
+                </div>
+                <div className="spec">
+                  <svg>
+                    <circle id="circle_5" cx="25px" cy="25px" r="25px"></circle>
+                  </svg>
+                  <li>Rigoureux</li>
+                </div>
+                <div className="spec">
+                  <svg>
+                    <circle id="circle_6" cx="25px" cy="25px" r="25px"></circle>
+                  </svg>
+                  <li>Assidu</li>
+                </div>
+                <div className="spec">
+                  <svg>
+                    <circle id="circle_7" cx="25px" cy="25px" r="25px"></circle>
+                  </svg>
+                  <li>Organisation</li>
+                </div>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div className="column_3">
-          <div className="skills_column_1">
-            <h2 className="animation_h2">Compétences :</h2>
+        <div className="column_phone">
+          <div className="skills_column_phone">
+            <h2>Compétences :</h2>
             <ul>
               <div className="spec">
                 <svg>
-                  <circle
-                    className="circle"
-                    cx="25px"
-                    cy="25px"
-                    r="25px"
-                  ></circle>
+                  <circle id="circle" cx="25px" cy="25px" r="25px"></circle>
                 </svg>
                 <li>Communication</li>
               </div>
               <div className="spec">
                 <svg>
-                  <circle
-                    className="circle_1"
-                    cx="25px"
-                    cy="25px"
-                    r="25px"
-                  ></circle>
+                  <circle id="circle_1" cx="25px" cy="25px" r="25px"></circle>
                 </svg>
                 <li>Adaptation</li>
               </div>
               <div className="spec">
                 <svg>
-                  <circle
-                    className="circle_2"
-                    cx="25px"
-                    cy="25px"
-                    r="25px"
-                  ></circle>
+                  <circle id="circle_2" cx="25px" cy="25px" r="25px"></circle>
                 </svg>
                 <li>Gestion du stress</li>
               </div>
               <div className="spec">
                 <svg>
-                  <circle
-                    className="circle_3"
-                    cx="25px"
-                    cy="25px"
-                    r="25px"
-                  ></circle>
+                  <circle id="circle_3" cx="25px" cy="25px" r="25px"></circle>
                 </svg>
                 <li>Travail en équipe</li>
               </div>
             </ul>
           </div>
-          <div className="skills_column_2">
+          <div className="skills_column_2_phone">
             <ul>
               <div className="spec">
                 <svg>
-                  <circle
-                    className="circle_4"
-                    cx="25px"
-                    cy="25px"
-                    r="25px"
-                  ></circle>
+                  <circle id="circle_4" cx="25px" cy="25px" r="25px"></circle>
                 </svg>
                 <li>Ponctuel</li>
               </div>
               <div className="spec">
                 <svg>
-                  <circle
-                    className="circle_5"
-                    cx="25px"
-                    cy="25px"
-                    r="25px"
-                  ></circle>
+                  <circle id="circle_5" cx="25px" cy="25px" r="25px"></circle>
                 </svg>
                 <li>Rigoureux</li>
               </div>
               <div className="spec">
                 <svg>
-                  <circle
-                    className="circle_6"
-                    cx="25px"
-                    cy="25px"
-                    r="25px"
-                  ></circle>
+                  <circle id="circle_6" cx="25px" cy="25px" r="25px"></circle>
                 </svg>
                 <li>Assidu</li>
               </div>
               <div className="spec">
                 <svg>
-                  <circle
-                    className="circle_7"
-                    cx="25px"
-                    cy="25px"
-                    r="25px"
-                  ></circle>
+                  <circle id="circle_7" cx="25px" cy="25px" r="25px"></circle>
                 </svg>
                 <li>Organisation</li>
               </div>
