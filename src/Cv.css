@@ -134,8 +134,7 @@ ul li {
 .moi {
   position: relative;
   z-index: 1000;
-  height: 18vh;
-  width: 25vw;
+  width:30vw;
   border: 2px solid #29f3c3;
   box-shadow: 0px 0px 10px 2px #29f3c3;
   animation: defilement-rtl9 2s linear;
@@ -263,17 +262,14 @@ ul li {
 
 .icons_dev {
   width: 4vw;
-  height: 4vh;
 }
 
 .icons_hobbies {
   width: 4vw;
-  height:3vh;
 }
 
 .icons_contact {
   width: 4vw;
-  height:3vh;
   padding: 10px;
 }
 
@@ -498,7 +494,6 @@ p {
 }
 
 .moi {
-  height: 20vh;
   width: 20vw;
 }
 
@@ -663,7 +658,6 @@ p {
 }
 
 .moi {
-  height: 30vh;
   width: 12vw;
 }
 
@@ -700,14 +694,16 @@ p {
   width: 50%;
 }
 
+.icons_dev {
+  width: 2vw;
+}
+
 .icons_hobbies {
   width: 2vw;
-  height:4vh;
 }
 
 .icons_contact {
   width: 2vw;
-  height:4vh;
 }
 
 /* COLUMN 2 */

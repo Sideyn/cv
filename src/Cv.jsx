@@ -194,7 +194,7 @@ function Cv() {
                 <Typical
                   loop={1}
                   wrapper="b"
-                  steps="PRODEX | 05-2020 / 09/2020"
+                  steps="PRODEX | 05-2021 / 09/2021"
                 />
               </h3>
               <p>
