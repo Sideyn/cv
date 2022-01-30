@@ -1,0 +1,37 @@
+.Cv {
+  background-image: url("./image/back.png");
+  color: white;
+  overflow: hidden;
+}
+
+.body {
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: 150px 220px;
+  grid-template-rows: 280px 280px 280px 220px 280px;
+  grid-template-areas:
+    "infos experience "
+    "infos experience"
+    "infos experience"
+    "infos experience"
+    "competence competence";
+}
+
+@media screen and (min-width: 768px) {
+  .body {
+    /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(3, 260px);
+    grid-template-rows: repeat(5, 350px);
+    grid-template-areas:
+      "infos experience experience"
+      "infos experience experience"
+      "infos experience experience"
+      "infos experience experience"
+      "infos competence competence";
+  }
+}
