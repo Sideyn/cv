@@ -1,0 +1,20 @@
+.Footer {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  animation: move1 6s infinite;
+}
+
+@keyframes move1 {
+  50% {
+    box-shadow: 0px 0px 10px #29f3c3;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Footer {
+    height: 80px;
+  }
+}

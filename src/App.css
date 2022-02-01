@@ -1,0 +1,11 @@
+.Cv {
+  background-image: url("./assets/back.png");
+  color: white;
+  overflow: hidden;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./App";
 import "./index.css";
-import Cv from "./Cv";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Cv />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

@@ -1,0 +1,245 @@
+.column_phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  animation: defilement-rtl3 4.5s linear;
+}
+
+.column_desktop {
+  display: none;
+}
+
+.column_tablet {
+  display: none;
+}
+
+.skills_column_phone {
+  padding: 5px;
+}
+
+.skills_column_2_phone {
+  margin-top: 15px;
+}
+
+svg {
+  height: 50px;
+  width: 50px;
+  filter: drop-shadow(0px 0px 2px #29f3c3);
+}
+
+svg,
+circle {
+  fill: none;
+  stroke: #29f3c3;
+  stroke-width: 20px;
+  stroke-dasharray: 520;
+  stroke-dashoffset: 520;
+  border-radius: 50px;
+}
+
+#circle {
+  animation: circle_0 12s forwards;
+}
+
+#circle_1 {
+  animation: circle_1 12s forwards;
+}
+
+#circle_2 {
+  animation: circle_2 12s forwards;
+}
+
+#circle_3 {
+  animation: circle_3 12s forwards;
+}
+
+#circle_4 {
+  animation: circle_4 12s forwards;
+}
+
+#circle_5 {
+  animation: circle_5 12s forwards;
+}
+
+#circle_6 {
+  animation: circle_6 12s forwards;
+}
+
+#circle_7 {
+  animation: circle_7 12s forwards;
+}
+
+@keyframes circle_0 {
+  to {
+    stroke-dashoffset: 390;
+  }
+}
+
+@keyframes circle_1 {
+  to {
+    stroke-dashoffset: 380;
+  }
+}
+
+@keyframes circle_2 {
+  to {
+    stroke-dashoffset: 395;
+  }
+}
+
+@keyframes circle_3 {
+  to {
+    stroke-dashoffset: 385;
+  }
+}
+
+@keyframes circle_4 {
+  to {
+    stroke-dashoffset: 260;
+  }
+}
+
+@keyframes circle_5 {
+  to {
+    stroke-dashoffset: 380;
+  }
+}
+
+@keyframes circle_6 {
+  to {
+    stroke-dashoffset: 390;
+  }
+}
+
+@keyframes circle_7 {
+  to {
+    stroke-dashoffset: 380;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .column_tablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -850px;
+    margin-left: 300px;
+    animation: defilement-rtl3 4.5s linear;
+  }
+
+  .column_phone {
+    display: none;
+  }
+
+  .column_desktop {
+    display: none;
+  }
+
+  .skills_column_tablet {
+    padding: 5px;
+  }
+
+  .skills_column_2_tablet {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .column_tablet {
+    margin-top: -1200px;
+    margin-left: 450px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .column_desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1500px;
+    margin-left: 550px;
+    animation: defilement-rtl3 4.5s linear;
+  }
+
+  .column_phone {
+    display: none;
+  }
+
+  .column_tablet {
+    display: none;
+  }
+
+  .skills_column_2_desktop {
+    margin-top: 25px;
+    padding-left: 250px;
+  }
+
+  .circle_desktop {
+    height: 100px;
+    width: 100px;
+    filter: drop-shadow(0px 0px 3px #29f3c3);
+  }
+
+  .circle_desktop,
+  circle {
+    stroke-width: 35px;
+    stroke-dasharray: 710;
+    stroke-dashoffset: 710;
+  }
+
+  @keyframes circle_0 {
+    to {
+      stroke-dashoffset: 460;
+    }
+  }
+
+  @keyframes circle_1 {
+    to {
+      stroke-dashoffset: 450;
+    }
+  }
+
+  @keyframes circle_2 {
+    to {
+      stroke-dashoffset: 465;
+    }
+  }
+
+  @keyframes circle_3 {
+    to {
+      stroke-dashoffset: 455;
+    }
+  }
+
+  @keyframes circle_4 {
+    to {
+      stroke-dashoffset: 390;
+    }
+  }
+
+  @keyframes circle_5 {
+    to {
+      stroke-dashoffset: 455;
+    }
+  }
+
+  @keyframes circle_6 {
+    to {
+      stroke-dashoffset: 440;
+    }
+  }
+
+  @keyframes circle_7 {
+    to {
+      stroke-dashoffset: 460;
+    }
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .column_desktop {
+    margin-top: -1600px;
+    margin-left: 850px;
+  }
+}
