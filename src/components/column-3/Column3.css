@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
   margin: 20px;
-  grid-area: competence;
   animation: defilement-rtl3 4.5s linear;
 }
 
@@ -124,8 +123,8 @@ circle {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -650px;
-    margin-left: 350px;
+    margin-top: -850px;
+    margin-left: 300px;
     animation: defilement-rtl3 4.5s linear;
   }
 
@@ -146,14 +145,20 @@ circle {
   }
 }
 
-@media screen and (min-width: 1380px) {
+@media screen and (min-width: 1024px) {
+  .column_tablet {
+    margin-top: -1200px;
+    margin-left: 450px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
   .column_desktop {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: -1500px;
-    margin-left: 800px;
-
+    margin-left: 550px;
     animation: defilement-rtl3 4.5s linear;
   }
 
@@ -229,5 +234,12 @@ circle {
     to {
       stroke-dashoffset: 460;
     }
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .column_desktop {
+    margin-top: -1600px;
+    margin-left: 850px;
   }
 }

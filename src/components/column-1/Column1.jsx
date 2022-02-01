@@ -1,14 +1,14 @@
 import React from "react";
-import moi from "../../image/moi.jpg"
-import carte from "../../image/voyage.png";
-import art from "../../image/origami.png";
-import cinema from "../../image/cinema.png";
-import musique from "../../image/note-de-musique.png";
-import console from "../../image/console.png";
-import adresse from "../../image/adresse.png";
-import telephone from "../../image/telephone.png";
-import email from "../../image/email.png";
-import linkedin from "../../image/linkedin.png";
+import moi from "../../assets/moi.jpg"
+import carte from "../../assets/voyage.png";
+import art from "../../assets/origami.png";
+import cinema from "../../assets/cinema.png";
+import musique from "../../assets/note-de-musique.png";
+import console from "../../assets/console.png";
+import adresse from "../../assets/adresse.png";
+import telephone from "../../assets/telephone.png";
+import email from "../../assets/email.png";
+import linkedin from "../../assets/linkedin.png";
 import Typical from "react-typical";
 import './Column1.css'
 
